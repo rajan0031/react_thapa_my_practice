@@ -1,0 +1,66 @@
+/* imgGen.css */
+
+body {
+  background-color: #f0f7fd; /* Light blue background for the entire page */
+  color: #333; /* Default text color */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern sans-serif font-family */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.ai-image-generator {
+  background-color: #ffffff; /* White background color for the container */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+.header {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007bff; /* Bluish text color for the header */
+  margin-bottom: 20px;
+}
+
+.img img {
+  width: 100%; /* Make the image fill its container */
+  border: 2px solid #007bff; /* Bluish border for the image */
+  border-radius: 10px; /* Add border radius to round the corners */
+  margin-bottom: 20px;
+}
+
+/* Add a color transition effect on hover for the image border */
+.img img:hover {
+  border-color: #0056b3; /* Darker bluish border color on hover */
+  transition: border-color 0.3s ease;
+}
+
+.search input {
+  width: calc(100% - 20px); /* Adjust input width */
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #007bff; /* Bluish border for the input field */
+  border-radius: 10px; /* Add border radius to input field */
+  box-sizing: border-box;
+}
+
+.gen_btn button {
+  background-color: #007bff; /* Bluish background color for the button */
+  color: #fff; /* White text color for the button */
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px; /* Add border radius to button */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a background color transition effect */
+}
+
+/* Button hover effect */
+.gen_btn button:hover {
+  background-color: #0056b3; /* Darker bluish background color on hover */
+}
